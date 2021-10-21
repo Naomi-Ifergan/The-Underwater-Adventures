@@ -400,7 +400,7 @@ GameObject:
   - component: {fileID: 630336031}
   - component: {fileID: 630336030}
   m_Layer: 5
-  m_Name: Play Game Button
+  m_Name: PlayGame Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -963,6 +963,7 @@ GameObject:
   - component: {fileID: 2090526570}
   - component: {fileID: 2090526569}
   - component: {fileID: 2090526568}
+  - component: {fileID: 2090526571}
   m_Layer: 5
   m_Name: Instruction Button
   m_TagString: Untagged
@@ -1033,7 +1034,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2090526569}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2090526569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1072,3 +1085,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090526566}
   m_CullTransparentMesh: 1
+--- !u!114 &2090526571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090526566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6ef01c13ed399449680e339a230427, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
