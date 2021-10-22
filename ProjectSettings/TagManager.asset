@@ -38,6 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3474270973
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Plastic bottle
+    uniqueID: 2052018495
     locked: 0
