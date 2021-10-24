@@ -291,7 +291,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -383.2, y: -90.2}
+  m_AnchoredPosition: {x: -383.2, y: 46}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &422300140
@@ -323,8 +323,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4292335973
-  m_fontColor: {r: 0.3960484, g: 0.8490566, b: 0.84457093, a: 1}
+    rgba: 2100505856
+  m_fontColor: {r: 0, g: 0.1764706, b: 0.2, a: 0.49019608}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -427,8 +427,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.329, y: -9.4473}
-  m_SizeDelta: {x: 409.12, y: 183.0285}
+  m_AnchoredPosition: {x: 8, y: 6.008}
+  m_SizeDelta: {x: 569.0917, y: 261.5817}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &435151961
 MonoBehaviour:
@@ -569,8 +569,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Instructions:\n\n1.  Click on the plastic bottles to clean the ocean.\n\n2. 
-    For every bottle, player gains  $10 and 1 fish is released into the ocean. \n\n3. 
+  m_text: "Instructions:\n\n1.  Click on the plastic bottle to clean the ocean.\n\n2. 
+    For every click, player gains  $10 and 1 fish is released into the ocean. \n\n3. 
     When player reaches $500, they can hire another diver and gain double points.\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -598,8 +598,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -682,8 +682,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 6.0079956}
+  m_SizeDelta: {x: 0, y: 12.016}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &858933553
 MonoBehaviour:
@@ -760,7 +760,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 292, y: -131}
+  m_AnchoredPosition: {x: 535, y: -236}
   m_SizeDelta: {x: 180.1974, y: 44.1381}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1203601583
