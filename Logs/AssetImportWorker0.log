@@ -1595,3 +1595,91 @@ Received Import Request.
 Start importing Assets/Sound/Bubble.mp3 using Guid(8beb085ac297e4e4ab2c5167954c2f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51539923585306ff00873c98a369f102') in 1.504355 seconds
   Import took 1.531762 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003932 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.545 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.8 MB.
+System memory in use after: 101.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2529.
+Total: 7.101207 ms (FindLiveObjects: 0.597434 ms CreateObjectMapping: 0.248040 ms MarkObjects: 6.198855 ms  DeleteObjects: 0.052602 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 907.930702 seconds.
+  path: Assets/Images/MovingBubbles.gif
+  artifactKey: Guid(c2129799d00dbb04cbf9ff59b885a61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/MovingBubbles.gif using Guid(c2129799d00dbb04cbf9ff59b885a61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4def4a489223c3012955203dc30acd9e') in 0.425209 seconds
+  Import took 0.561566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 172.599423 seconds.
+  path: Assets/video
+  artifactKey: Guid(894182ffec3f5a14fad1e259619783f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/video using Guid(894182ffec3f5a14fad1e259619783f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334b1116f306865887b748672449fd5c') in 0.065617 seconds
+  Import took 0.097118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001437 seconds.
+  path: Assets/video/MovingBubbles.gif
+  artifactKey: Guid(3e0b86f25ce19294090df667e7d6cf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/video/MovingBubbles.gif using Guid(3e0b86f25ce19294090df667e7d6cf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b80cf153752ff116df938c11cc85e8d') in 0.185334 seconds
+  Import took 0.207493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001600 seconds.
+  path: Assets/video
+  artifactKey: Guid(894182ffec3f5a14fad1e259619783f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/video using Guid(894182ffec3f5a14fad1e259619783f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334b1116f306865887b748672449fd5c') in 0.072299 seconds
+  Import took 0.101049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1401.848301 seconds.
+  path: Assets/Sound/waterbackground.mp3
+  artifactKey: Guid(6b7ce830e272bb440b5d04d22028ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/waterbackground.mp3 using Guid(6b7ce830e272bb440b5d04d22028ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b633bc6e0c42009cc8764312f567a531') in 1.315312 seconds
+  Import took 1.493071 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003915 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.891 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.8 MB.
+System memory in use after: 101.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2537.
+Total: 7.091371 ms (FindLiveObjects: 0.386600 ms CreateObjectMapping: 0.147969 ms MarkObjects: 6.502062 ms  DeleteObjects: 0.049608 ms)
+
