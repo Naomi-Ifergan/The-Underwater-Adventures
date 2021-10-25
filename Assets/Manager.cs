@@ -9,8 +9,7 @@ public class Manager : MonoBehaviour
 
     float TotalClicks;
 
-    private Text score;
-    private int scoreAmount;
+    
 
     public void AddClicks()
     {
@@ -26,19 +25,4 @@ public class Manager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
     }
 
-    private void Start()
-    {
-        scoreAmount = 0;
-        score = GetComponent<Text>();
-    }
-
-    private void Update()
-    {
-        score.text = scoreAmount.ToString();
-    }
-
-    public void AddScore()
-    {
-        scoreAmount += 2;
-    }
 }
