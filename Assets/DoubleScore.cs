@@ -7,22 +7,22 @@ public class DoubleScore : MonoBehaviour
 {
 
     private Text score;
-    private int scoreAmount;
+    private int doubleScore;
 
 
     void Start()
     {
-        scoreAmount = 0;
+        doubleScore = 0;
         score = GetComponent<Text>();
     }
 
     private void Update()
     {
-        score.text = scoreAmount.ToString();
+        score.text = doubleScore.ToString();
     }
 
     public void AddScore()
     {
-        scoreAmount += 10;
+        doubleScore += 10;
     }
 }
