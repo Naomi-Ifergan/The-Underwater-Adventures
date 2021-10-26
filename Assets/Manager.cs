@@ -9,7 +9,10 @@ public class Manager : MonoBehaviour
 
     float TotalClicks;
 
-    
+    public Text MoneyTotalText;
+
+    float TotalMoney;
+
 
     public void AddClicks()
     {
@@ -17,8 +20,18 @@ public class Manager : MonoBehaviour
         TotalClicks++;
 
         ClicksTotalText.text = TotalClicks.ToString("0");
+
     }
 
+    public void AddMoney()
+    {
+
+        TotalMoney += 10;
+
+     
+        MoneyTotalText.text = TotalMoney.ToString("0");
+
+    }
 
     public void MainMenu()
     {
