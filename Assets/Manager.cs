@@ -14,7 +14,25 @@ public class Manager : MonoBehaviour
     public Text TotalPlasticText;
     float PlasticLeft;
 
+    private Text score;
+    private int scoreAmount;
 
+
+    private void Start()
+    {
+        scoreAmount = 1000000;
+        score = GetComponent<Text>();
+    }
+
+    private void Update()
+    {
+        score.text = scoreAmount.ToString();
+    }
+
+    public void SubtractScore()
+    {
+        scoreAmount -= 1;
+    }
     public void AddClicks()
     {
 
@@ -49,4 +67,7 @@ public class Manager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
     }
 
+
+    
 }
+
