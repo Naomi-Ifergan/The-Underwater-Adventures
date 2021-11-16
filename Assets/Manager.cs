@@ -26,7 +26,7 @@ public class Manager : MonoBehaviour
     public void AddMoney()
     {
 
-        TotalMoney += 10;
+        TotalMoney += 5;
 
      
         MoneyTotalText.text = TotalMoney.ToString("0");
