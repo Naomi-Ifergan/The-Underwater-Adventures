@@ -40,6 +40,8 @@ public class Manager : MonoBehaviour
 
         ClicksTotalText.text = TotalClicks.ToString("0");
 
+
+
     }
 
     public void AddMoney()
