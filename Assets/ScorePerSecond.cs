@@ -12,8 +12,8 @@ public class ScorePerSecond : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scoreAmount = 0f;
-        pointIncreasedPerSecond = 1f;
+        scoreAmount =0f;
+        pointIncreasedPerSecond =1f;
     }
 
     // Update is called once per frame
