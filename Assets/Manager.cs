@@ -17,16 +17,28 @@ public class Manager : MonoBehaviour
     private Text score;
     private int scoreAmount;
 
+    public Text scoreText;
+    public float scoreAmountt;
+    public float pointIncreasedPerSecond;
 
     private void Start()
     {
         scoreAmount = 1000000;
         score = GetComponent<Text>();
+
+  
+        scoreAmountt = 0f;
+        pointIncreasedPerSecond = 1f;
+
     }
 
     private void Update()
     {
         score.text = scoreAmount.ToString();
+
+
+        scoreText.text = "Autoclicks: " + (int)scoreAmountt;
+        scoreAmountt += pointIncreasedPerSecond * Time.deltaTime;
     }
 
     public void SubtractScore()
@@ -39,8 +51,6 @@ public class Manager : MonoBehaviour
         TotalClicks++;
 
         ClicksTotalText.text = TotalClicks.ToString("0");
-
-
 
     }
 
@@ -72,4 +82,6 @@ public class Manager : MonoBehaviour
 
     
 }
+
+
 
