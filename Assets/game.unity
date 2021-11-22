@@ -977,7 +977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 432884427}
-  scoreAmountt: 0
+  scoreAmount: 0
   pointIncreasedPerSecond: 0
 --- !u!114 &432884427
 MonoBehaviour:
@@ -1424,7 +1424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 432884427}
-  scoreAmountt: 0
+  scoreAmount: 0
   pointIncreasedPerSecond: 0
 --- !u!114 &570463163
 MonoBehaviour:
@@ -1454,7 +1454,6 @@ GameObject:
   - component: {fileID: 627004661}
   - component: {fileID: 627004660}
   - component: {fileID: 627004659}
-  - component: {fileID: 627004662}
   m_Layer: 5
   m_Name: BottleButton
   m_TagString: Untagged
@@ -1626,24 +1625,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 627004657}
   m_CullTransparentMesh: 1
---- !u!114 &627004662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 627004657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9388ccf9e7a39e84691636a9f3164ff1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ClicksTotalText: {fileID: 0}
-  MoneyTotalText: {fileID: 0}
-  TotalPlasticText: {fileID: 0}
-  scoreText: {fileID: 0}
-  scoreAmountt: 0
-  pointIncreasedPerSecond: 0
 --- !u!1 &658340739
 GameObject:
   m_ObjectHideFlags: 0
@@ -3219,7 +3200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 432884427}
-  scoreAmountt: 0
+  scoreAmount: 0
   pointIncreasedPerSecond: 0
 --- !u!114 &1550401154
 MonoBehaviour:
@@ -3424,7 +3405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 432884427}
-  scoreAmountt: 0
+  scoreAmount: 0
   pointIncreasedPerSecond: 0
 --- !u!1 &1638329180
 GameObject:
