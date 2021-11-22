@@ -71,7 +71,7 @@ public class Manager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
     }
 
-
+    
     
 }
 

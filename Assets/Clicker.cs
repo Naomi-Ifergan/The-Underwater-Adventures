@@ -33,7 +33,7 @@ public class Clicker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (score >= 10)
+        if (score >= 50)
         {
             buy2XButton.enabled = true;
         }
