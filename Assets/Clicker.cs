@@ -15,7 +15,7 @@ public class Clicker : MonoBehaviour
     public void AddPoints()
     {
         score += 1 * mult;
-       scoreText.text = "Plastic Bottles: " + score;
+       scoreText.text = "Score: " + score;
 
     }
 
