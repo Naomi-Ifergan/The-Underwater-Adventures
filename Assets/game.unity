@@ -630,7 +630,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -2.585, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 100, y: -107.99863}
+  m_AnchoredPosition: {x: 100, y: -107.99846}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &161025625
@@ -2171,7 +2171,7 @@ MonoBehaviour:
   scoreText: {fileID: 192471524}
   mult: 5
   buy2XButton: {fileID: 490423433}
-  hireButton: {fileID: 0}
+  hireButton: {fileID: 1988704436}
 --- !u!114 &570463167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2345,6 +2345,18 @@ MonoBehaviour:
       - m_Target: {fileID: 570463166}
         m_TargetAssemblyTypeName: Clicker3, Assembly-CSharp
         m_MethodName: AddPoints
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 570463166}
+        m_TargetAssemblyTypeName: Clicker3, Assembly-CSharp
+        m_MethodName: HireButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5284,7 +5296,6 @@ GameObject:
   - component: {fileID: 1988704437}
   - component: {fileID: 1988704436}
   - component: {fileID: 1988704435}
-  - component: {fileID: 1988704439}
   m_Layer: 5
   m_Name: hireButton
   m_TagString: Untagged
@@ -5431,20 +5442,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1988704433}
   m_CullTransparentMesh: 1
---- !u!114 &1988704439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1988704433}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23cd4586f8bb8e141b9ca72497822002, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 0
-  scoreText: {fileID: 0}
-  mult: 5
-  buy2XButton: {fileID: 0}
-  hireButton: {fileID: 1988704436}
