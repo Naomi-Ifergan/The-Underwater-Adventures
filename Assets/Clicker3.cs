@@ -36,6 +36,7 @@ public class Clicker3 : MonoBehaviour
         if (score >= 50)
         {
             buy2XButton.enabled = true;
+
         }
         else
         {
