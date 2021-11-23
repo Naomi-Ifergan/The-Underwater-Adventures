@@ -14,17 +14,12 @@ public class Manager : MonoBehaviour
     public Text TotalPlasticText;
     float PlasticLeft;
 
- 
-    
-
- 
+   
 
     private void Start()
     {
         PlasticLeft = 1000000;
         
-
-
     }
 
     private void Update()
@@ -71,8 +66,16 @@ public class Manager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
     }
 
-    
-    
+
+   public void GameOver(){
+        
+        if (TotalPlasticText.text == "0" )
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+        }
+    }
+
+
 }
 
 
