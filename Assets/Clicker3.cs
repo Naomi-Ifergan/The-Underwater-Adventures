@@ -11,6 +11,8 @@ public class Clicker3 : MonoBehaviour
     public int mult = 5;
 
     public Button buy2XButton;
+
+
     public Button hireButton;
 
     public void AddPoints()
@@ -31,6 +33,7 @@ public class Clicker3 : MonoBehaviour
     void Start()
     {
         buy2XButton.enabled = false;
+        hireButton.enabled = false;
     }
 
     // Update is called once per frame
