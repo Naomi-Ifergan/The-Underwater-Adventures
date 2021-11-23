@@ -21,7 +21,7 @@ public class Clicker2 : MonoBehaviour
 
     public void Buy2xButtonUpgrade2()
     {
-        mult = -2;
+        mult -= -2;
     }
 
     // Start is called before the first frame update
