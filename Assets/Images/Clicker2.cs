@@ -15,13 +15,13 @@ public class Clicker2 : MonoBehaviour
     public void AddPoints()
     {
         score -= 1 * mult;
-        scoreText.text = "Score: " + score;
+        scoreText.text = "" + score;
 
     }
 
     public void Buy2xButtonUpgrade2()
     {
-        mult -= -2;
+        mult -= -1;
     }
 
     // Start is called before the first frame update
