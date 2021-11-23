@@ -11,6 +11,7 @@ public class Clicker3 : MonoBehaviour
     public int mult = 5;
 
     public Button buy2XButton;
+    public Button hireButton;
 
     public void AddPoints()
     {
@@ -24,6 +25,8 @@ public class Clicker3 : MonoBehaviour
         mult = 10;
     }
 
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,14 +36,34 @@ public class Clicker3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (score >= 50)
+        if (score >= 100)
         {
             buy2XButton.enabled = true;
-
+          
         }
+
         else
         {
             buy2XButton.enabled = false;
         }
     }
+
+
+
+
+
+    public void HireButton()
+    {
+        if (score >= 1000)
+        {
+            hireButton.enabled = true;
+
+        }
+
+        else
+        {
+            hireButton.enabled = false;
+        }
+    }
+
 }
