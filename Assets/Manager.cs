@@ -63,7 +63,7 @@ public class Manager : MonoBehaviour
 
     public void MainMenu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
+        SceneManager.LoadScene("menu");
     }
 
 
